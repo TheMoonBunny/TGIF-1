@@ -1,0 +1,148 @@
+/*.Ulhide {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+a.button {
+    -webkit-appearance: button;
+    -moz-appearance: button;
+    appearance: button;
+
+    text-decoration: none;
+    color: initial;
+}
+old button code
+*/
+
+
+body {
+    background: rgb(58, 58, 58);
+    color: white;
+}
+
+section {
+    background:white;
+    color:grey;   
+    padding: 20px 20px;
+    display: flex;
+    flex-direction: row;
+    margin: auto;
+
+}
+
+
+div {
+    background:red; /*to find mistakes */
+    width: 100px;
+    margin: auto;
+}
+ul{
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+    background: black; /*remove to make the black box go away*/
+  
+}
+li {
+    display: inline-block;
+    margin-right:20px;
+}
+
+footer{
+    background: black;
+    padding: 20px 20px;
+    color:gray;
+    text-align:center;
+    font-size:12px;
+}
+header {
+    background: black;
+    background-image:url("../images/banner12.jpg");
+   padding:20px;
+   height: 100px;
+   text-align: center;
+   background-position: center;
+   background-size: 100%;
+    
+}
+header a {
+    text-decoration: none;
+    color:white;
+    margin-top: 40px;
+}
+header .logo a {
+    background-image: url("../images/logo3.png");
+    display:inline-block;
+    height:120px;
+    width: 300px;
+    text-indent: -999999px;
+    background-size:300px;
+    background-repeat: no-repeat;
+    position: relative;
+    top: -40px;
+}
+.features{
+padding: 20px;
+display: flex;
+flex-direction: row;
+color:gray;
+flex-wrap: wrap;
+}
+.features figure{
+    margin:auto;
+    width:200px;
+    text-align: center;
+    text-transform: capitalize;
+}
+.features figure img {
+    width: 200px;
+    border-radius:50%;
+    box-shadow: grey 0px 0px 10px;
+    border: 1px solid white;
+}
+
+.wrapper{
+    display: flex;
+    position: relative;
+}
+.wrapper .sidebar{
+    position: fixed;
+    width:200 px;
+    height: 100%;
+    padding-left: 30px 0;
+}
+
+
+@media screen and (max-height: 450px) {
+  .sidenav {padding-top: 15px;}
+  .sidenav a {font-size: 18px;}
+}
+
+
+/* header mobile is default turned off until max-width is reached */
+header .mobile{
+    display:none;
+}
+/* mobile friendly time ;w;*/
+@media screen and (max-width: 660px) {
+    header .mobile {
+        display:inline-block;
+    }
+    header .desktop {
+        display: none;
+    }
+}
+/* this media screen is for the logo on mobile*/
+@media screen and (max-width: 662px){
+    header {
+        height:200px;
+        background-position: 0 -0px;
+    }
+}
+/* 
+features flex-wrap: wrap; fixed it, no need for media.
+@media screen and (max-width: 660px) {
+ .features {
+     display:block;
+ }
+}*/
