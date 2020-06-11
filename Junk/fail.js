@@ -34,6 +34,7 @@ function login() {
 		}
 	}
 }
+
 // register functionality
 function registerUser() {
 	// store new users username

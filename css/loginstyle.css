@@ -59,3 +59,12 @@ body {
     color: #4caf50;
     text-decoration: none;
 }
+.form .register-form {
+display: none;
+}
+.position {
+    
+    color: aliceblue;
+    border-bottom-color:solid 2px gray;    
+    
+}

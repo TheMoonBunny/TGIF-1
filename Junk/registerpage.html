@@ -10,10 +10,13 @@
     <div class="login-page">
         <div class="form">
             <form class= "register-form">
-                <input type="text" placeholder="user name"/>
-                <input type="text" placeholder="password"/>
-                <input type="text" placeholder="email"/>
-                <button>Register</button>
+                <label class="position">Username</label>
+                <input type="text" id="newUsername" />
+                <label class="position">password</label>
+                <input type="password" id="newPassword"/>
+                <label class="position">Email</label>
+                <input type="email" id="newEmail"/>
+                <button type="button" onclick="registerUser()">Register</button>
                 <p class="message"> Already Registered? <a href="loginpage.html">Login</a></p>
                 <p class="message">Return<a href="../index.html">Home</a></p>
                 
@@ -21,6 +24,6 @@
  
         </div>
     </div>
-    
+    <script src="../js/javascript.js"></script>
 </body>
 </html>
