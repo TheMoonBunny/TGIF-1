@@ -3,18 +3,17 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel= "stylesheet" href= ../css/contact.css>
+    <link rel= "stylesheet" href= ../css/mainstyle.css>
     
     <title>Contact Form</title>
 </head>
-
 <header>
     <nav><ul>
         <li> <a href=../index.html>Home</a></li>
         <li> <a href=messageboard.html>Messageboard</a></li>
         
        
-        <li class= "logo"><a href=#> Logo </a></li>
+        <li class= "logo"><a href=../index.html> Logo </a></li>
         
         <li class= "desktop"><a href=extra.html>Publication</a></li>
         <li class= "desktop"><a href=contact.html>Contact</a></li>
@@ -29,10 +28,14 @@
 <body>
     <div class= "contactset">
     <form action="mailto:yamballfiller@gmail.com" method="post" enctype="text/plain">
-        Name:<br>
-        <input type="text" name=""><br>
-        E-mail:<br>
-        <input type="text" name=""><br>
+        <br>
+        <label for="username">Username:</label>
+        <br>
+        <input id= "username" type="text" name=""><br>
+        <br>
+        <label for="email">E-mail:</label>
+        <br>
+        <input id="email" type="email" name=""><br>
         Message:<br>
         <textarea class="commentbox" name="" cols ="50" rows="5"></textarea>
         <br><br>
