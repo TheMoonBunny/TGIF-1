@@ -65,6 +65,7 @@ display: none;
 .position {
     
     color: aliceblue;
-    border-bottom-color:solid 2px gray;    
-    
+    border:solid 2px gray;    
+    margin: 20px 5px;
+    outline:solid 10px silver;
 }

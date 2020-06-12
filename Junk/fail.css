@@ -1,0 +1,315 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans&display=swap");
+
+*,
+body {
+  font-family: "Open Sans", Arial, Helvetica, sans-serif;
+  font-size: 16px;
+  line-height: 1.1rem;
+  margin: 0;
+  padding: 0;
+}
+.other-content {
+  margin: 0;
+  padding: 0;
+  width: 99vw;
+  height: 85vh;
+  background-color: seashell;
+  text-align: center;
+}
+.other-content h1 {
+  font-size: 8rem;
+  font-size: 8vw;
+  line-height: 8rem;
+  padding-top: 200px;
+  color: #444;
+  text-shadow: 5px 5px 5px lightgray;
+}
+
+/* FOOTER CODE START */
+.footer {
+  width: 100%;
+  background-color: navajowhite;
+  margin: 0 auto;
+  padding-top: 24px;
+}
+.footer .row {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  flex-direction: column;
+}
+.footer .row.main {
+  max-width: 1440px;
+  margin: 0 auto;
+  padding: 0 16px 0 16px;
+}
+.footer .col {
+  flex: 1;
+  max-width: 100%;
+  transition: all 0.5s;
+  border: 1px solid transparent;
+}
+.footer .site-info {
+  display: flex;
+  flex-direction: row;
+}
+.footer .footer-disclaimer {
+  width: 65%;
+  border-right: 1px dashed black;
+  margin: 0;
+}
+.footer .footer-disclaimer .logo img {
+  width: 50%;
+}
+.footer .footer-disclaimer p {
+  padding-right: 24px;
+  padding-bottom: 8px;
+  margin-top: 16px;
+}
+.footer .footer-links {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.footer .footer-links ul {
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  padding-left: 16px;
+}
+.footer .footer-links li {
+  margin: 4px 0px;
+}
+.footer .footer-links a {
+  color: black;
+  text-decoration: none;
+  display: block;
+}
+.footer .footer-links a:hover {
+  background-color: #facada;
+}
+.footer .social-icons {
+  width: 100%;
+  padding-top: 16px;
+  margin-top: 16px;
+  border-top: 1px dashed black;
+}
+.footer .social-icons ul {
+  padding: 0;
+  margin: 0;
+  list-style: none;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+.footer .social-icons li a {
+  color: black;
+  font-size: 1.5rem;
+  padding: 0 8px;
+}
+.footer .ending-note {
+  background-color: #facada;
+  background-image: linear-gradient(
+    rgba(0, 0, 0, 0.8),
+    rgba(0, 0, 0, 0.2) 20%,
+    rgba(0, 0, 0, 0) 50%
+  );
+  font-size: 0.8rem;
+  margin: 16px 0 0 0;
+  padding: 16px;
+}
+.footer .ending-note p {
+  width: 80%;
+  text-align: center;
+  margin: 0 auto;
+}
+.footer .contactform {
+  padding: 16px 48px;
+}
+.footer .contactform p {
+  margin: 0 0 24px 0;
+  padding: 16px 0 0 0;
+  text-align: center;
+  font-weight: bold;
+}
+.footer .contactform form {
+  display: flex;
+  flex-direction: column;
+}
+.footer .contactform form label {
+  font-size: 0.6rem;
+  color: black;
+  text-transform: uppercase;
+  margin-bottom: 4px;
+}
+.footer .contactform form input[type="text"],
+.footer .contactform form textarea {
+  background-color: transparent;
+  color: black;
+  margin-bottom: 16px;
+  border: 0;
+  border-bottom: 1px solid darkgray;
+  font-size: 1rem;
+}
+.footer .contactform form input[type="text"]:focus,
+.footer .contactform form textarea:focus {
+  outline: 0;
+}
+.footer .contactform form button {
+  max-width: 30%;
+  max-width: fit-content;
+  max-width: max-content;
+  background-color: transparent;
+  padding: 8px 16px;
+  color: black;
+  border: 1px solid black;
+  margin: 0 auto;
+}
+
+.footer .col.maps {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  flex-wrap: wrap;
+  border-top: 1px dashed black;
+  border-bottom: 1px dashed black;
+  margin-top: 16px;
+}
+.footer .place {
+  flex: 1;
+  display: flex;
+  margin: 16px 0px;
+}
+.footer .place .address {
+  margin-left: 8px;
+  padding: 0;
+}
+.footer .place .address p {
+  margin: 4px 0 0 0;
+  padding: 0;
+}
+.footer .place .mapcontainer {
+  height: 100%;
+  padding-bottom: 33.5%;
+}
+.footer .place .map {
+
+  width: 100px;
+  height: 100px;
+  text-align: center;
+ 
+}
+
+@media (min-width: 960px) {
+  .footer {
+    width: 100%;
+    background-color: navajowhite;
+    margin: 0 auto;
+    padding-top: 24px;
+  }
+  .footer .row {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    flex-direction: row;
+  }
+  .footer .row.main {
+    max-width: 1440px;
+    margin: 0 auto;
+    padding: 0 16px 0 16px;
+  }
+  .footer .col {
+    flex: 1;
+    max-width: 33%;
+    transition: all 0.5s;
+    border: 1px solid transparent;
+  }
+  .footer .col.site-info {
+    flex-direction: column;
+  }
+  .footer .footer-disclaimer,
+  .footer .footer-links ul {
+    border: none;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+  }
+  .footer .col:hover {
+    background-color: rgba(255, 255, 255, 0.25);
+    transition: all 0.5s;
+    border: 1px solid white;
+  }
+  .footer .place,
+  .footer .footer-links,
+  .footer .contactform,
+  .footer .footer-disclaimer {
+    margin: 8px;
+  }
+  .footer .logo img {
+    width: 50%;
+  }
+  .footer .col.maps {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding-top: 0;
+    overflow: hidden;
+    border: 1px solid transparent;
+    margin: 0;
+    padding: 8px;
+  }
+  .footer .col.maps:hover {
+    border: 1px solid white;
+  }
+  .footer .place {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+  }
+  .footer .place .map-container {
+    height: 0;
+    padding-bottom: 25.5%;
+    margin: 0;
+  }
+  .footer .place .address {
+    margin-left: 8px;
+    width: 100%;
+    overflow: hidden;
+    padding-bottom: 0;
+  }
+  .footer .place .address p {
+    font-size: 1rem;
+    margin: 0 0 4px 0;
+    color: #333333;
+  }
+  .footer .place .address p:first-child {
+    margin-bottom: 16px;
+    color: black;
+  }
+
+  .footer .social-icons {
+    width: 100%;
+    padding-top: 8px;
+    margin-top: 8px;
+    border-top: none;
+  }
+  .footer .social-icons li a {
+    font-size: 2rem;
+  }
+
+  .footer .contactform p {
+    text-align: left;
+    border-top: none;
+    padding-top: 0;
+  }
+  .footer .contactform {
+    margin: 0 16px;
+    padding: 8px;
+  }
+  .footer .contactform form button {
+    margin: 0;
+  }
+}

@@ -1,4 +1,4 @@
-// Create a registration system
+/*// Create a registration system
 var objPeople = [
 	{
 		username: 'sam',
@@ -66,4 +66,4 @@ function registerUser() {
 	objPeople.push(newUser)
 	// console the updated people array
 	console.log(objPeople)
-}
+}*/
