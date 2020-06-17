@@ -1,0 +1,15 @@
+Bijvoorbeeld een “photo gallery van varens”, 
+doelstelling van de Varen Club Curacao, 
+Varen Bulletins van de club, 
+aktiviteiten in het lopende jaar enzovoorts.
+
+
+
+to do list:
+josias domain name
+react.js
+http://tfeps.org/index.htm
+http://www.nederlandse-varenvereniging.nl/
+
+Idea:
+index put div images for events.

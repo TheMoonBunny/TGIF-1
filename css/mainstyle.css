@@ -1,21 +1,29 @@
 body {
-    height: 100%; 
+    min-height: 100vh; 
     background: url("../images/backgroundplant.jpg") no-repeat center center fixed; 
-
+    flex-flow: column;
     background-size: cover;
+    margin:0px;
+    padding: 0px;
+    display:flex;
+
+    
+}
+body p{
     
 }
 body h1 {
     text-align: center;
-    color:white;
+    color: white;
 }
-.wrapper {
 
-}
 *{
     box-sizing: border-box;
 
   
+}
+.wrapper{
+    flex:1;
 }
 .wrapper-text {
     text-align: center;
@@ -23,6 +31,8 @@ body h1 {
     margin: 0px 300px 75px 300px;
     background-color: #f8f3e6;
     border-radius: 10px;
+    padding-bottom: 50px;
+    font-family:"Roboto", sans-serif;
 
 }
 
@@ -44,7 +54,7 @@ header {
 header a {
     text-decoration: none;
     color:white;
-    margin-top: 45px;
+    margin-top:12px; /*change for text margin top in header*/
 }
 header .logo a {
     background-image: url("../images/mainlogo.png");
@@ -57,20 +67,40 @@ header .logo a {
     position: relative;
     top: -60px;
 }
-ul{
-    margin: 0;
-    padding: 0;
+ul.desktop li{
+    margin: 10px;
+    padding:10px;
     list-style-type: none;
+    display: inline-block;
     
    /* background: black; /*remove to make the black box go away*/
   
 }
+.ptemp { /*ptemp is used to have control of the body paragraphs for beter design view*/
+    text-align: left;
+}
+
+
+ol 
+{
+  padding-left:100px;  
+  list-style-type: upper-alpha; /*Alphabet list for ptemp body*/
+}
 li {
-    display: inline-block;
+
     margin-right:20px; 
     text-decoration: none;
-    color: white;
+    color: black;
+    text-align: left;
+    
+
 }
+.lifix{
+    padding-left: 15px;
+    list-style-type: decimal;
+}
+
+
 
 .login-page {
     width: 360px; /*div size width*/
@@ -118,7 +148,7 @@ li {
 .form .message {
     margin: 15px 0 0;
     color: aliceblue;
-    font-size: 12px;
+    font-size: 14px;
 }
 .form .message a {
     color: #4caf50;
@@ -158,28 +188,72 @@ h1{
    width:177px;
    height:150px;
 }
+.gallery {
+    padding: 10px 300px;
+
+}
+.gallery img {
+transition: 1s;
+padding: 1px;
+margin: 20px;
+width: 200px;
+height: 200px;
+border:0.1px solid #021a40;
+object-fit: cover;
+
+}
+.gallery img:hover {
+filter: grayscale(100%);
+transform: scale(1.1);
+}
 
 
 footer{
-    margin-top:20px;
-    padding: 2cm, 2, 2, -2;
     background: black;
     padding: 0px 20px;
     color:white;
     text-align:center;
-    font-size:12px;
-    position: absolute;
-    bottom: auto;
+    font-size:14px;
+    bottom: 0; /*keep 0 for permanent footer at bottom, keep auto for bug fix on index.html*/
     width: 100%;
     height: 7rem;            /* Footer height */
     overflow:hidden;
     left: 0px;
     
 }
+footer.desktop li{
+    display: none;
+}
 .footer_column {
     display: inline-block;
-  
+
 }
+.footer_fixer{
+    text-decoration: none;
+    color:white;
+    
+}
+/*font-awesome-bootstrap fix*/
+.s-m{
+    margin: auto;
+    justify-content: space-around;
+    display: flex;
+    max-width: 175px; /*Change for the "inner-margin"*/
+    font-size: 17.5px; /*change for smaller font icon as main logo-picture in the font awesome*/
+  }
+  .s-m a{
+    text-decoration: none;
+    color: #f1f1f1;
+    width: 45px;
+    height: 45px;
+    text-align: center;
+    transition: 0.4s all;
+    line-height: 45px;
+    cursor: pointer;
+    background: #314652;
+    border-radius: 50%;
+    
+  }
 
 @media screen and (max-height: 450px) {
     .sidenav {padding-top: 15px;}
