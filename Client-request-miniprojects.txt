@@ -1,0 +1,42 @@
+Bijvoorbeeld een “photo gallery van varens”, 
+doelstelling van de Varen Club Curacao, 
+Varen Bulletins van de club, 
+aktiviteiten in het lopende jaar enzovoorts.
+-Trouwens bo por pone un folder tambe di Varen Show en 
+Verkoop. Normaal nos tin un pamflet ku tur info pero 
+e biaha aki ora bo habri e folder bo por pone:
+"Wegens de COVID pandemie en regels van de regering van Curaçao zal in 2020 helaas geen Fern Show and Sale plaatsvinden".
+-Ok. Mi a manda e maand bulletin pa bo. 
+-Hinké pa nan wak ku ta pa korsou e ta na papiamentu
+
+
+Dus als het goed is bo tin un:
+home page, ** 
+doelstelling, **
+lidmaatschap, **
+foto galerij, **
+varen bulletin, **
+Aktiviteiten: Varen Show en Verkoop. **
+
+to do list summer: Josias
+Domain name:
+react.js
+node.js
+database opzetten:
+
+Reference competitions:
+http://tfeps.org/index.htm
+http://www.nederlandse-varenvereniging.nl/
+
+Idea:
+index put div images for events.
+home pagina:
+Reason for website,
+Mission statement (goals),
+Identify branding ().
+
+note:
+Beinvloeding van de gemeenschap voor planten in het algemeen en voor varens in het bijzonder.
+Bewustwording voor de bescherming van bedreigde plantensoorten
+Behoud van evenwicht van de ecologie
+Uitbreiding van kennis in het verzorgen en verzamelen van varens.

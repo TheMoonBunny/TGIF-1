@@ -9,30 +9,33 @@ body {
 
     
 }
-body p{
-    
-}
+
 body h1 {
     text-align: center;
-    color: white;
+    color: black;   
+
 }
 
 *{
     box-sizing: border-box;
-
+    font-family:"Roboto", sans-serif;
   
 }
 .wrapper{
     flex:1;
 }
+
 .wrapper-text {
-    text-align: center;
+    
+    text-align: justify;
+    text-align-last: left;
+    padding: 20px 10px;
     color:black;
     margin: 0px 300px 75px 300px;
     background-color: #f8f3e6;
     border-radius: 10px;
     padding-bottom: 50px;
-    font-family:"Roboto", sans-serif;
+
 
 }
 
@@ -44,7 +47,6 @@ header {
    
    height: 100px;
    text-align: center;
-   background-position: relative;
    background-size: 100%;
    border-radius:10px; /*change when you got better border idea, image*/
    position: relative;
@@ -57,21 +59,42 @@ header a {
     margin-top:12px; /*change for text margin top in header*/
 }
 header .logo a {
-    background-image: url("../images/mainlogo.png");
+    background-image: url("../images/mainlogo3.png");
     display:inline-block;
-    height:120px;
-    width: 120px;
+    height:200px;
+    width: 200px;
     text-indent: -999999px;
-    background-size: 120px;
+    background-size: 180px;
     background-repeat: no-repeat;
     position: relative;
-    top: -60px;
+    top:-102px;
 }
+.bulletin {
+    margin: 20px;
+    padding-left:20px;
+    list-style-type: none;
+    display: inline-block;
+    
+}
+.bulletin ul{
+    display: flex;
+    flex-flow: column;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+.bulletin li {
+
+        white-space: nowrap;
+      
+}
+
 ul.desktop li{
     margin: 10px;
     padding:10px;
     list-style-type: none;
     display: inline-block;
+    
     
    /* background: black; /*remove to make the black box go away*/
   
@@ -100,8 +123,6 @@ li {
     list-style-type: decimal;
 }
 
-
-
 .login-page {
     width: 360px; /*div size width*/
     padding: 0% 0 0; /*10% down*/
@@ -117,7 +138,7 @@ li {
     margin: 0 auto 100px;
 }
 .form input {
-    font-family: "Roboto", sans-serif;
+ 
     outline: 1;
     background: #f2f2f2;
     width: 100%;
@@ -130,7 +151,7 @@ li {
 
 }
 .form button {
-    font-family:"Roboto", sans-serif;
+
     text-transform:uppercase;
     outline: 0;
     background: #4caf50;
@@ -169,7 +190,7 @@ display: none;
     color:white;
     position: relative;
     z-index: 1;
-    background: rgb(76, 175, 80);
+    background:#4caf50;
     max-width: 360px;
     padding: 45px;
     text-align:center;
@@ -184,29 +205,51 @@ display: none;
 h1{
    color:white;
 }
+.box {
+    background-color: lightgrey;
+    width: 75px;
+    height: 37.5px;
+    border: 15px solid green;
+    padding-bottom: 25px;
+    padding-top: 5px;
+    border-right-width: 5px;
+    border-left-width: 5px;
+    padding-right: 5px;
+    border-top-width: 5px;
+    border-bottom-width: 5px;
+    text-align: center;
+}
 .contactset .commentbox {
    width:177px;
    height:150px;
 }
+.wrapper-text .commentbox{
+    display:none; /*to remove the mail filler*/
+}
 .gallery {
     padding: 10px 300px;
+ 
+
 
 }
 .gallery img {
 transition: 1s;
-padding: 1px;
-margin: 20px;
-width: 200px;
-height: 200px;
-border:0.1px solid #021a40;
+margin: 5px;
+width: calc(25% - 40px);
+height: 200px; 
 object-fit: cover;
+display: inline-block;
+
+
 
 }
 .gallery img:hover {
 filter: grayscale(100%);
 transform: scale(1.1);
 }
-
+.memberimage {
+    padding: -20px;
+}
 
 footer{
     background: black;

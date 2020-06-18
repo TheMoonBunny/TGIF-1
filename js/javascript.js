@@ -1,4 +1,4 @@
-// Create a registration system
+// Create a static registration system
 var objPeople = [
 	{
 		username: 'sam',
